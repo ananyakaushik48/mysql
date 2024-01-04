@@ -15,4 +15,5 @@ You dont need to customise this file, you can if you want to use a custom mysql 
       - MYSQL_ROOT_PASSWORD=shit@fuckyou
       - MYSQL_DATABASE=fuckthisshit
       - MYSQL_USER=fucksql
-      - MYSQL_PASSWORD=yourmomsabitch@1234```
+      - MYSQL_PASSWORD=yourmomsabitch@1234
+```
