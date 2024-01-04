@@ -33,5 +33,5 @@ docker-compose up -d
 ```
 - To connect to the database from the command line (need to have mysql-client installed)
 ```bash
-mysql -u root -p 'fuckthisshit' -h 127.0.0.1 -P 3306 -D local
+mysql -u root -p 'mysqllocal' -h 127.0.0.1 -P 3306 -D local
 ```
