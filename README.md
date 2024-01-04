@@ -19,9 +19,15 @@ environment:
 ```
 
 ### To run the docker image use the following command
-```git clone git@github.com:ananyakaushik48/mysql.git```
-```cd mysql```
-```docker-compose up -d```
+```bash
+git clone git@github.com:ananyakaushik48/mysql.git
+```
+```bash
+cd mysql
+```
+```bash
+docker-compose up -d
+```
 ```bash
 mysql -u root -p 'fuckthisshit' -h 127.0.0.1 -P 3306 -D local
 ```
