@@ -1,0 +1,6 @@
+FROM mysql:latest
+
+ENV MYSQL_ROOT_PASSWORD=actix
+ENV MYSQL_DATABASE=actixweb3
+ENV MYSQL_USER=hydrazine
+ENV MYSQL_PASSWORD=hydrazine@1234

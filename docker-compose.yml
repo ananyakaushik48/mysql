@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=hydrazine@12345
+      - MYSQL_DATABASE=hydrazinemysql
+      - MYSQL_USER=hydrazine
+      - MYSQL_PASSWORD=hydrazine@1234
+    ports:
+      - "3306:3306"  # Map port 3306 of the container to port 3306 on the host
+    volumes:
+      - mysql_data:/var/lib/mysql  # Persist data even when the container is destroyed
+
+volumes:
+  mysql_data:
