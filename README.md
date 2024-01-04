@@ -17,3 +17,8 @@ environment:
   - MYSQL_USER=fucksql
   - MYSQL_PASSWORD=yourmomsabitch@1234
 ```
+
+### To run the docker image use the following command
+```bash
+mysql -u root -p 'fuckthisshit' -h 127.0.0.1 -P 3306 -D local
+```
