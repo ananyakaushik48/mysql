@@ -9,13 +9,13 @@
 You dont need to customise this file, you can if you want to use a custom mysql docker image
 
 ### docker-compose.yml
-> To customise this file you can update the environment values to get started
+> To customise this file you can update the environment variables in the yaml file
 ```yaml
 environment:
-  - MYSQL_ROOT_PASSWORD=shit@fuckyou
-  - MYSQL_DATABASE=fuckthisshit
-  - MYSQL_USER=fucksql
-  - MYSQL_PASSWORD=yourmomsabitch@1234
+  - MYSQL_ROOT_PASSWORD=password@1234
+  - MYSQL_DATABASE=mysqllocal
+  - MYSQL_USER=sqluser
+  - MYSQL_PASSWORD=sqluserpass@1234
 ```
 
 ### To run the docker image use the following command
